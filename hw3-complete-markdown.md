@@ -162,6 +162,8 @@ than 2 million square feet.
 
 Let’s visualize the partial dependence on green\_rating:
 ![](hw3-complete-markdown_files/figure-markdown_strict/unnamed-chunk-13-1.png)
+
+
 This partial dependence plot gives us a rough estimate of the
 relationship between building green rating and revenue. We see that on
 average, a building that is “green rated” brings in about $0.80 more per
