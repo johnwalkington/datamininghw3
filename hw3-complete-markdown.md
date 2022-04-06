@@ -152,6 +152,7 @@ computationally intensive.
 Let’s create some partial dependence plots with our gradient-boosted
 tree. First we’ll look at size:
 ![](hw3-complete-markdown_files/figure-markdown_strict/unnamed-chunk-12-1.png)
+
 This partial dependence plot gives us a rough estimate of the
 relationship between building size and revenue. We see that on average,
 a building with a size of 2 million square feet brings in about $18 more
