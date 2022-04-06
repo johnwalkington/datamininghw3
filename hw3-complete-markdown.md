@@ -185,10 +185,14 @@ measure: “Rent” and “leasing\_rate.” I also used the collapsed
 “green\_rating” variable in place of separate LEED and EnergyStar
 variables.
 ![](hw3-complete-markdown_files/figure-markdown_strict/unnamed-chunk-16-1.png)
+
+
 This plot shows out-of-bag MSE as a function of number of trees averaged
 for the forest (randomForest defaults to 500.) We see that the error
 bottoms out after about 100 trees.
 ![](hw3-complete-markdown_files/figure-markdown_strict/unnamed-chunk-17-1.png)
+
+
 This plot shows the relative importance of our feature variables in the
 random forest in determining revenue. The x-axis measures percent
 increase in MSE if we were to omit a given variable on the y-axis. Here
@@ -198,6 +202,8 @@ the least important (only leads to a 10 percent increase in MSE if
 omitted.)
 
 ![](hw3-complete-markdown_files/figure-markdown_strict/unnamed-chunk-18-1.png)
+
+
 This partial dependence plot gives us a rough estimate of the
 relationship between building size and revenue. We see that on average,
 a building with a size of 2 million square feet brings in about $10 more
